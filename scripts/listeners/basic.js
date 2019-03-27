@@ -17,17 +17,20 @@ class basic {
             // h version
             {
                 regex: /\bh\b\s*?\bversion\b\s*$/i,
-                handler: this.handleVersion.bind(this)
+                handler: this.handleVersion.bind(this),
+                help: '`version` - Displays version information.'
             },
             // h system
             {
                 regex: /\bh\b\s*?\bsystem\b\s*$/i,
-                handler: this.handleSystem.bind(this)
+                handler: this.handleSystem.bind(this),
+                help: '`system` - Displays system information'
             },
             // h help
             {
                 regex: /\bh\b\s*?\bhelp\b\s*\b(.*)\b$/i,
-                handler: this.handleHelp.bind(this)
+                handler: this.handleHelp.bind(this),
+                help: '`help` - Shows this help.'
             },
         ];
 
