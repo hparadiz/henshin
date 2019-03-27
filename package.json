@@ -1,0 +1,29 @@
+{
+  "name": "henshin",
+  "version": "0.1.0",
+  "description": "A Slack bot based on Hubot",
+  "main": "henshin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "hubot"
+  ],
+  "author": "Henry Paradiz",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Henry Paradiz",
+      "email": "henry.paradiz@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "hubot": "*",
+    "hubot-diagnostics": "*",
+    "hubot-redis-brain": "*",
+    "hubot-slack": "^4.6.0",
+    "optparse": "^1.0.5"
+  }
+}

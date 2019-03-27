@@ -1,0 +1,3 @@
+#!/usr/bin/env coffee
+process.env = Object.assign(process.env,require '../config/env.js')
+require 'hubot/bin/hubot.js'

@@ -1,0 +1,5 @@
+node_modules
+.env
+bin/process.pid
+.vscode/*
+config/env.js
